@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await DAXX.start()
     try:
-        await DAXX.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await DAXX.stream_call("https://files.catbox.moe/5d387c.jpg")
     except NoActiveGroupCall:
         LOGGER("DAXXMUSIC").error(
             "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𝗗𝗔𝗫𝗫 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
@@ -50,12 +50,12 @@ async def init():
         pass
     await DAXX.decorators()
     LOGGER("DAXXMUSIC").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗗𝗔𝗫𝗫☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
+        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎ 𝐌ᴀᴅᴇ 𝐁ʏ 𝐓ᴇᴀᴍ 𝐋ᴏꜰɪ ☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("DAXXMUSIC").info("𝗦𝗧𝗢𝗣 𝗗𝗔𝗫𝗫 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("DAXXMUSIC").info("𝗦𝗧𝗢𝗣 𝐊𝐈𝐘𝐎𝐌𝐈 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
 
 
 if __name__ == "__main__":
